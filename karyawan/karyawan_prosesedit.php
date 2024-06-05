@@ -6,7 +6,7 @@ $nama	= $_POST['nama'];
 $tanggal	= $_POST['tanggal'];
 $telpon	= $_POST['telpon'];
 $jabatan	= $_POST['jabatan'];
-$sql 	= "UPDATE mahasiswa SET kode='$kode', nama='$nama', tanggal='$tanggal', telpon='$telpon', jabatan='$jabatan' WHERE id='$id'";
+$sql 	= "UPDATE karyawan SET kode='$kode', nama='$nama', tanggal='$tanggal', telpon='$telpon', jabatan='$jabatan' WHERE id='$id'";
 $query 	= mysqli_query($koneksidb,$sql);
 if($query){
 	echo "<script type='text/javascript'>
